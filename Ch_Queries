@@ -1,1 +1,12 @@
 
+/***********************************************
+Date : 2026.10.16
+Name : Jay Meesala
+Chapter 5 Assignment
+GitHub: https://github.com/shakoooni/Ch5_Insert_Update_Delete
+************************************************/
+/***********************************************
+Part 1.1) Write a query that determines how many records are in the customer table, and document
+************************************************/
+SELECT COUNT(*)
+FROM customer;
