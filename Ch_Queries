@@ -10,3 +10,9 @@ Part 1.1) Write a query that determines how many records are in the customer tab
 ************************************************/
 SELECT COUNT(*)
 FROM customer;
+/***********************************************
+•	Part 1.3) Write a query that verifies your newly created backup 
+table has the same number of rows as the original table 
+************************************************/
+SELECT *
+FROM customer_full_backup;
