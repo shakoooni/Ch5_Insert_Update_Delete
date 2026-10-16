@@ -20,3 +20,8 @@ FROM customer_full_backup;
 •Part 1.4) Use the MySQL CHECKSUM to verify the two tables are the same
 ************************************************/
 CHECKSUM TABLE customer, customer_full_backup;
+/***********************************************
+o2.1.A How many records are in the rental table, and document
+************************************************/
+SELECT COUNT(*)
+FROM rental;
