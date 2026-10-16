@@ -37,3 +37,10 @@ o2.1.C How many rentals have NOT been returned (based on return_date), and docum
 SELECT COUNT(*)
 FROM rental
 WHERE return_date IS NULL;
+/***********************************************
+•	Part 2.2) Write statements to create a partial backup of the rental table 
+for all rentals that have been returned. Name your backup table returned_rental 
+************************************************/
+SELECT *
+FROM returned_rental;
+
