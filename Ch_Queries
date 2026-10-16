@@ -31,3 +31,9 @@ o2.1.B How many rentals have been returned (based on return_date) and document
 SELECT COUNT(*)
 FROM rental
 WHERE return_date IS NOT NULL;
+/***********************************************
+o2.1.C How many rentals have NOT been returned (based on return_date), and document   
+************************************************/
+SELECT COUNT(*)
+FROM rental
+WHERE return_date IS NULL;
