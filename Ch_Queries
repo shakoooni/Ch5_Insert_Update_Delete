@@ -16,3 +16,7 @@ table has the same number of rows as the original table
 ************************************************/
 SELECT *
 FROM customer_full_backup;
+/***********************************************
+•Part 1.4) Use the MySQL CHECKSUM to verify the two tables are the same
+************************************************/
+CHECKSUM TABLE customer, customer_full_backup;
