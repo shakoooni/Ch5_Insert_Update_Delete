@@ -118,5 +118,14 @@ SET store_id = 2,
     email = 'alex.meesala@example.com'
 WHERE customer_id = 601;
 
+/***********************************************
+•	Part 6.3 - write a query to verify the two records have been correctly update
+use the address id (606) to retrieve both records
+************************************************/
+SELECT *
+FROM customer
+WHERE address_id = 606;
+
+
 
 
