@@ -109,5 +109,14 @@ SET store_id = 2,
     email = 'jay.meesala@example.com'
 WHERE customer_id = 600;
 
+/***********************************************
+•	Part 6.2 - update your second new customer record by changing it's store id = 2 and email address
+use the customer id (601) to update only one record
+************************************************/
+UPDATE customer
+SET store_id = 2,
+    email = 'alex.meesala@example.com'
+WHERE customer_id = 601;
+
 
 
