@@ -92,5 +92,12 @@ INSERT INTO customer
 VALUES
     (1, 'Alex', 'Meesala',
      606, '2026-10-16 10:28:00');
+/***********************************************
+Part 5.2: Write a query to prove the new customer was created by filtering on address id 606
+This should have created customer id = 601
+************************************************/
+SELECT *
+FROM customer
+WHERE address_id = 606;
 
 
