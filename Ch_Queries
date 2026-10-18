@@ -50,4 +50,34 @@ Exercise 3: Drop Tables
 DROP TABLE customer_full_backup;
 
 DROP TABLE returned_rental;
+/***********************************************
+•	Part 4.1: Write multiple statements to setup yourself as a new customer with a new city and address
+o	use DEFAULT for auto increment columns
+o	use NULL for columns that allow null values
+o	use DEFAULT for columns with default values 
+************************************************/
+INSERT INTO city VALUES
+(DEFAULT, 'Jay City', 103, DEFAULT);
+
+
+SELECT *
+FROM city
+WHERE city = 'Jay City';
+
+INSERT INTO address VALUES
+(DEFAULT, '123 Jay Street', NULL,
+'Nebraska', 601, NULL, '5550100100', DEFAULT);
+
+SELECT *
+FROM address
+WHERE city_id = 601;
+
+INSERT INTO customer VALUES
+(DEFAULT, 1, 'Jay', 'Meesala',
+NULL, 606, DEFAULT,
+'2026-10-16 10:28:00', DEFAULT);
+
+SELECT *
+FROM customer
+WHERE address_id = 606;
 
