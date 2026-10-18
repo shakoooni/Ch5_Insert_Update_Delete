@@ -43,4 +43,11 @@ for all rentals that have been returned. Name your backup table returned_rental
 ************************************************/
 SELECT *
 FROM returned_rental;
+/***********************************************
+Exercise 3: Drop Tables
+•	Write one or two statements that will drop the backup tables from Exercise 1 and 2
+************************************************/
+DROP TABLE customer_full_backup;
+
+DROP TABLE returned_rental;
 
