@@ -126,6 +126,15 @@ SELECT *
 FROM customer
 WHERE address_id = 606;
 
+/***********************************************
+•	Part 7.1: Write one update statement that will update both new customer records 
+changing their address id from 606 to 605. This will require you filtering by the address id = 606.
+************************************************/
+UPDATE customer
+SET address_id = 605
+WHERE address_id = 606;
+
+
 
 
 
