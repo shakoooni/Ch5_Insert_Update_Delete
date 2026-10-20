@@ -147,6 +147,12 @@ WHERE address_id = 605;
 DELETE FROM city
 WHERE city_id = 601;
 
+/***********************************************
+•	Part 8.1.B - Write a delete statement that delete the new address records using the address id = 606
+************************************************/
+DELETE FROM address
+WHERE address_id = 606;
+
 
 
 
