@@ -141,6 +141,13 @@ SELECT *
 FROM customer
 WHERE address_id = 605;
 
+/***********************************************
+•	Part 8.1.A - Write a delete statement that delete the new city records using the city id = 601
+************************************************/
+DELETE FROM city
+WHERE city_id = 601;
+
+
 
 
 
