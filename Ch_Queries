@@ -166,6 +166,22 @@ SELECT *
 FROM customer
 WHERE customer_id IN (600, 601);
 
+/***********************************************
+•	Part 8.3 - Document your results and what you had to do to resolve the issue.
+
+The issue was pretty simple. I tried deleting
+the city, but MySQL wouldn't allow it because
+the address was still connected to it.
+
+This happened because of the foreign key.
+
+To fix it, I had to delete the related records
+first before deleting the city.
+
+I then used SELECT queries to check if
+everything was deleted properly.
+************************************************/
+
 
 
 
