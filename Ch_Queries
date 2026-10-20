@@ -153,6 +153,13 @@ WHERE city_id = 601;
 DELETE FROM address
 WHERE address_id = 606;
 
+/***********************************************
+•	Part 8.1.C - Write a delete statement that delete the new customer records using the customer id = 600 & 601
+************************************************/
+DELETE FROM customer
+WHERE customer_id IN (600, 601);
+
+
 
 
 
