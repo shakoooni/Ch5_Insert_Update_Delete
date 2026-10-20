@@ -134,6 +134,13 @@ UPDATE customer
 SET address_id = 605
 WHERE address_id = 606;
 
+/***********************************************
+Part 7.2: Write a query to verify that both records have been correctly updated by filtering by address id (605) 
+************************************************/
+SELECT *
+FROM customer
+WHERE address_id = 605;
+
 
 
 
