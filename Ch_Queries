@@ -159,6 +159,13 @@ WHERE address_id = 606;
 DELETE FROM customer
 WHERE customer_id IN (600, 601);
 
+/***********************************************
+•	Part 8.2 - Write a queries that verifies the records has been deleted.
+************************************************/
+SELECT *
+FROM customer
+WHERE customer_id IN (600, 601);
+
 
 
 
